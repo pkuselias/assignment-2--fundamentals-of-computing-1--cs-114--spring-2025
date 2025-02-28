@@ -22,6 +22,8 @@ public class PrintVowelsAndNonVowels {
       String stringCharacter = "" + userString.charAt(i);
       if (stringCharacter.equals("a")) {
         ++smallA; }
+      if (stringCharacter.equals("e")) {
+        ++smallE; }
 
 
     }

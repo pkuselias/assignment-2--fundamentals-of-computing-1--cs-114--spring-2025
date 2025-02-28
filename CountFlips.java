@@ -3,6 +3,7 @@ public class CountFlips {
     Coin flippingCoin = new Coin();
     int flipNumber = 1;
     while (flipNumber < 101); {
+      flippingCoin.flip();
       flipNumber++;
 
     }

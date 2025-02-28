@@ -10,6 +10,8 @@ public class OneHundredBottlesOfBeer {
     String userString;
     userString = scan.next();
 
+    int stringLength = userString.length();
+
     scan.close();
   }
 }

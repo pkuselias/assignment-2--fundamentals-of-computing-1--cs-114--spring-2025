@@ -7,6 +7,8 @@ public class PrintVowelsAndNonVowels {
     System.out.println();
     System.out.println("Please enter any string: ");
 
+    System.out.println();
+
     String userString;
     userString = scan.nextLine();
 
@@ -18,6 +20,8 @@ public class PrintVowelsAndNonVowels {
     noSmallVowels = noSmallVowels.replace("o", "");
     noSmallVowels = noSmallVowels.replace("u", "");
     int noSmallVowelsLength = noSmallVowels.length();
+
+    System.out.println("Number of non-lowercase-vowel characters: " + noSmallVowelsLength);
 
     System.out.println();
 

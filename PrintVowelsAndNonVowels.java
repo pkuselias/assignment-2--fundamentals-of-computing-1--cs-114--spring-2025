@@ -14,6 +14,11 @@ public class PrintVowelsAndNonVowels {
 
     int stringLength = userString.length();
 
+    int smallA = 0, smallE = 0, smallI = 0, smallO = 0, smallU = 0;
+
+
+
+
     String noSmallVowels = userString.replace("a", "");
     noSmallVowels = noSmallVowels.replace("e", "");
     noSmallVowels = noSmallVowels.replace("i", "");

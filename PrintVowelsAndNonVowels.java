@@ -21,16 +21,20 @@ public class PrintVowelsAndNonVowels {
     for (int i = 0; i < stringLength; i++) {
       String stringCharacter = "" + userString.charAt(i);
       if (stringCharacter.equals("a")) {
-        ++smallA; }
+        ++smallA;
+      }
       if (stringCharacter.equals("e")) {
-        ++smallE; }
+        ++smallE;
+      }
       if (stringCharacter.equals("i")) {
-        ++smallI; }
+        ++smallI;
+      }
       if (stringCharacter.equals("o")) {
-        ++smallO; }
+        ++smallO;
+      }
       if (stringCharacter.equals("u")) {
-        ++smallU; }
-
+        ++smallU;
+      }
     }
 
     System.out.printf("a: %s e: %s i: %s o: %s u: %s%n", smallA, smallE, smallI, smallO, smallU);

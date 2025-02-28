@@ -14,9 +14,14 @@ public class CountFlips {
       }
 
       flipNumber++;
-
     }
 
+    System.out.println();
+
+    System.out.println("The number of heads is " + totalHeads);
+    System.out.println("The number of tails is " + totalTails);
+
+    System.out.println();
 
   }
 }

@@ -7,6 +7,12 @@ public class CountFlips {
     while (flipNumber < 101); {
       flippingCoin.flip();
 
+      if (flippingCoin.isHeads()) {
+        ++totalHeads;
+      } else {
+        ++totalTails;
+      }
+
       flipNumber++;
 
     }

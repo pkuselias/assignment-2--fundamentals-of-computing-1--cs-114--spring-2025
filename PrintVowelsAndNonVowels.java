@@ -26,6 +26,8 @@ public class PrintVowelsAndNonVowels {
         ++smallE; }
       if (stringCharacter.equals("i")) {
         ++smallI; }
+      if (stringCharacter.equals("o")) {
+        ++smallO; }
 
 
     }

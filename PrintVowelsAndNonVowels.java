@@ -12,6 +12,14 @@ public class PrintVowelsAndNonVowels {
 
     int stringLength = userString.length();
 
+    String noSmallVowels = userString.replace("a", "");
+    noSmallVowels = noSmallVowels.replace("e", "");
+    noSmallVowels = noSmallVowels.replace("i", "");
+    noSmallVowels = noSmallVowels.replace("o", "");
+    noSmallVowels = noSmallVowels.replace("u", "");
+
+    System.out.println();
+
     scan.close();
   }
 }

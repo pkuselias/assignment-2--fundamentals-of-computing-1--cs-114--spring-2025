@@ -20,6 +20,8 @@ public class PrintVowelsAndNonVowels {
 
     for (int i = 0; i < stringLength; i++) {
       String stringCharacter = "" + userString.charAt(i);
+      if (stringCharacter.equals("a")) {
+        ++smallA; }
 
 
     }

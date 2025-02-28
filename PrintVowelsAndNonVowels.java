@@ -17,6 +17,7 @@ public class PrintVowelsAndNonVowels {
     noSmallVowels = noSmallVowels.replace("i", "");
     noSmallVowels = noSmallVowels.replace("o", "");
     noSmallVowels = noSmallVowels.replace("u", "");
+    int noSmallVowelsLength = noSmallVowels.length();
 
     System.out.println();
 

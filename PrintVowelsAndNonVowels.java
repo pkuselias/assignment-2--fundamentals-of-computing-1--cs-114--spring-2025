@@ -12,10 +12,15 @@ public class PrintVowelsAndNonVowels {
     String userString;
     userString = scan.nextLine();
 
+    System.out.println();
+
     int stringLength = userString.length();
 
     int smallA = 0, smallE = 0, smallI = 0, smallO = 0, smallU = 0;
 
+
+
+    System.out.printf("a: %s e: %s i: %s o: %s u: %s%n", smallA, smallE, smallI, smallO, smallU);
 
 
 

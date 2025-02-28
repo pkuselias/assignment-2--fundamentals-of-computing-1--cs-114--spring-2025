@@ -19,6 +19,7 @@ public class PrintVowelsAndNonVowels {
     int smallA = 0, smallE = 0, smallI = 0, smallO = 0, smallU = 0;
 
     for (int i = 0; i < stringLength; i++) {
+      String stringCharacter = "" + userString.charAt(i);
 
 
     }

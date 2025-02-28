@@ -8,7 +8,7 @@ public class PrintVowelsAndNonVowels {
     System.out.println("Please enter any string: ");
 
     String userString;
-    userString = scan.next();
+    userString = scan.nextLine();
 
     int stringLength = userString.length();
 

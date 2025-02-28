@@ -4,7 +4,8 @@ public class CountFlips {
     int flipNumber = 1;
     int totalHeads = 0;
     int totalTails = 0;
-    while (flipNumber < 101); {
+
+    while (flipNumber < 101) {
       flippingCoin.flip();
 
       if (flippingCoin.isHeads()) {

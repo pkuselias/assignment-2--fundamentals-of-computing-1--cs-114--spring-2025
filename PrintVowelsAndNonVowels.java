@@ -28,7 +28,8 @@ public class PrintVowelsAndNonVowels {
         ++smallI; }
       if (stringCharacter.equals("o")) {
         ++smallO; }
-
+      if (stringCharacter.equals("u")) {
+        ++smallU; }
 
     }
 

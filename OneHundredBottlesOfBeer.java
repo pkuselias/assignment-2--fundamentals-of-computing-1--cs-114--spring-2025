@@ -8,7 +8,9 @@ public class OneHundredBottlesOfBeer {
     scan.close();
 
     if (versesNumber > 0 && versesNumber < 101) {
+      for(int i = 1; i < versesNumber; i++) {
 
+      }
     } else {
       System.out.println("The input for the number of verses is invalid.");
     }

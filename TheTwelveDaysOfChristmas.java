@@ -3,26 +3,27 @@ public class TheTwelveDaysOfChristmas {
     int day;
     String daySuffix;
 
-    switch (day) {
-      case 1:
-        daySuffix = day + "st";
+    for (day = 1; day < 13; day++) {
 
-        break;
+      switch (day) {
+        case 1:
+          daySuffix = day + "st";
 
-      case 2:
-        daySuffix = day + "nd";
+          break;
 
-        break;
+        case 2:
+         daySuffix = day + "nd";
 
-      case 3:
-        daySuffix = day + "rd";
+         break;
 
-        break;
+       case 3:
+         daySuffix = day + "rd";
 
-      default:
-        daySuffix = day + "th";
+         break;
+
+        default:
+         daySuffix = day + "th";
+      }
     }
-
-
   }
 }

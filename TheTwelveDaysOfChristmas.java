@@ -4,7 +4,6 @@ public class TheTwelveDaysOfChristmas {
     String daySuffix;
 
     for (day = 1; day < 13; day++) {
-
       switch (day) {
         case 1:
           daySuffix = day + "st";
@@ -23,6 +22,10 @@ public class TheTwelveDaysOfChristmas {
 
         default:
          daySuffix = day + "th";
+      }
+
+      System.out.println("On the " + daySuffix + "day of Christmas my true love gave to me");
+
       }
     }
   }

@@ -23,6 +23,5 @@ public class CountFlips {
     System.out.println("The number of tails is " + totalTails);
 
     System.out.println();
-
   }
 }

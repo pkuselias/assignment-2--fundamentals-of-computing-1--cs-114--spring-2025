@@ -6,5 +6,10 @@ public class OneHundredBottlesOfBeer {
     System.out.println("Enter the number of verses to be printed: ");
     int versesNumber = scan.nextInt();
 
+    if (versesNumber > 0 && versesNumber < 101) {
+
+    } else {
+
+    }
   }
 }

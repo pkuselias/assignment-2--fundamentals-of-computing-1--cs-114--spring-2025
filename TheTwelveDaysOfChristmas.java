@@ -1,10 +1,8 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
-    int day;
-    String daySuffix;
     System.out.println();
-
-    for (day = 1; day < 13; day++) {
+    for (int day = 1; day < 13; day++) {
+      String daySuffix;
       switch (day) {
         case 1:
           daySuffix = day + "st";

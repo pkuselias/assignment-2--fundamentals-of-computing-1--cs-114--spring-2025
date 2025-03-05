@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class OneHundredBottlesOfBeer {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
+    System.out.println();
     System.out.println("Enter the number of verses to be printed: ");
     int versesNumber = scan.nextInt();
     scan.close();
@@ -18,6 +19,7 @@ public class OneHundredBottlesOfBeer {
       }
     } else {
       System.out.println("The input for the number of verses is invalid.");
+      System.out.println();
     }
   }
 }

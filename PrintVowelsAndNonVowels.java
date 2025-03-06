@@ -51,7 +51,7 @@ public class PrintVowelsAndNonVowels {
       }
     }
 
-    System.out.printf("a: %s%ne: %s%ni: %s%no: %s%nu: %s%n", smallA, smallE, smallI, smallO, smallU);
+    System.out.printf("Lowercase 'a': %s%nLowercase 'e': %s%nLowercase 'i': %s%nLowercase 'o': %s%nLowercase 'u': %s%n", smallA, smallE, smallI, smallO, smallU);
 
     System.out.println("Number of non-vowel characters: " + nonVowels);
 

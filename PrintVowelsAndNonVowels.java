@@ -14,21 +14,32 @@ public class PrintVowelsAndNonVowels {
     int smallA = 0, smallE = 0, smallI = 0, smallO = 0, smallU = 0; //Create counter for each small vowel
 
     for (int i = 0; i < userString.length(); i++) {
-      String stringCharacter = "" + userString.charAt(i); //Individually check each character of user's string
-      if (stringCharacter.equals("a")) {
-        ++smallA;
-      }
-      if (stringCharacter.equals("e")) {
-        ++smallE;
-      }
-      if (stringCharacter.equals("i")) {
-        ++smallI;
-      }
-      if (stringCharacter.equals("o")) {
-        ++smallO;
-      }
-      if (stringCharacter.equals("u")) {
-        ++smallU;
+      char stringCharacter = userString.charAt(i); //Individually check each character of user's string
+      switch (stringCharacter) {
+        case 'a':
+          ++smallA;
+
+          break;
+
+        case 'e':
+          ++smallE;
+
+          break;
+
+        case 'i':
+          ++smallI;
+
+          break;
+
+        case 'o':
+          ++smallO;
+
+          break;
+
+        case 'u':
+          ++smallU;
+
+          break;
       }
     }
 

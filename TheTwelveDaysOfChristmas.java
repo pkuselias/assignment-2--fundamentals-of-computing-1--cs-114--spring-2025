@@ -10,17 +10,17 @@ public class TheTwelveDaysOfChristmas {
           break;
 
         case 2:
-         daySuffix = day + "nd";
+          daySuffix = day + "nd";
 
-         break;
+          break;
 
-       case 3:
-         daySuffix = day + "rd";
+        case 3:
+          daySuffix = day + "rd";
 
-         break;
+          break;
 
         default:
-         daySuffix = day + "th";
+          daySuffix = day + "th";
       }
 
       System.out.println("On the " + daySuffix + " day of Christmas my true love gave to me");

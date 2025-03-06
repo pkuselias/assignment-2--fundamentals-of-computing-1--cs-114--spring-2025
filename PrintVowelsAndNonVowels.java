@@ -12,11 +12,9 @@ public class PrintVowelsAndNonVowels {
 
     System.out.println();
 
-    int stringLength = userString.length();
-
     int smallA = 0, smallE = 0, smallI = 0, smallO = 0, smallU = 0; //Create counter for each small vowel
 
-    for (int i = 0; i < stringLength; i++) {
+    for (int i = 0; i < userString.length(); i++) {
       String stringCharacter = "" + userString.charAt(i); //Individually check each character of user's string
       if (stringCharacter.equals("a")) {
         ++smallA;
@@ -37,14 +35,13 @@ public class PrintVowelsAndNonVowels {
 
     System.out.printf("a: %s e: %s i: %s o: %s u: %s%n", smallA, smallE, smallI, smallO, smallU);
 
-    String noSmallVowels = userString.replace("a", "");
-    noSmallVowels = noSmallVowels.replace("e", "");
-    noSmallVowels = noSmallVowels.replace("i", "");
-    noSmallVowels = noSmallVowels.replace("o", "");
-    noSmallVowels = noSmallVowels.replace("u", "");
-    int noSmallVowelsLength = noSmallVowels.length(); //Recount non-lowercase-vowel characters in user's string
+    userString = userString.replace("a", "");
+    userString = userString.replace("e", "");
+    userString = userString.replace("i", "");
+    userString = userString.replace("o", "");
+    userString = userString.replace("u", "");
 
-    System.out.println("Number of non-lowercase-vowel characters: " + noSmallVowelsLength);
+    System.out.println("Number of non-lowercase-vowel characters: " + userString.length());
 
     System.out.println();
 

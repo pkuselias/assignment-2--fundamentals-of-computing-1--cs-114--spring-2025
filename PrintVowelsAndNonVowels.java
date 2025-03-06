@@ -32,7 +32,7 @@ public class PrintVowelsAndNonVowels {
       }
     }
 
-    System.out.printf("a: %s e: %s i: %s o: %s u: %s%n", smallA, smallE, smallI, smallO, smallU);
+    System.out.printf("a: %s%ne: %s%ni: %s%no: %s%nu: %s%n", smallA, smallE, smallI, smallO, smallU);
 
     userString = userString.replace("a", "");
     userString = userString.replace("e", "");

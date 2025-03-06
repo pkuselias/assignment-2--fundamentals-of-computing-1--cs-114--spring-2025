@@ -34,6 +34,8 @@ public class PrintVowelsAndNonVowels {
 
     System.out.printf("a: %s%ne: %s%ni: %s%no: %s%nu: %s%n", smallA, smallE, smallI, smallO, smallU);
 
+    userString = userString.toLowerCase();
+
     userString = userString.replace("a", "");
     userString = userString.replace("e", "");
     userString = userString.replace("i", "");

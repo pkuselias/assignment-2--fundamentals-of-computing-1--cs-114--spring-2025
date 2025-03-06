@@ -40,16 +40,18 @@ public class PrintVowelsAndNonVowels {
           ++smallU;
 
           break;
+
+        default:
+          String consonants = "BbCcDdFfGgHhJjKkLlMmNnPpQqRrSsTtVvWwXxYyZz";
+          for (int index = 0; index < consonants.length(); index++) {
+            if (stringCharacter == consonants.charAt(index)) {
+              nonVowels++;
+            }
+          }
       }
     }
 
-    userString = userString.toLowerCase();
-
     System.out.printf("a: %s%ne: %s%ni: %s%no: %s%nu: %s%n", smallA, smallE, smallI, smallO, smallU);
-
-
-
-
 
     System.out.println("Number of non-vowel characters: " + nonVowels);
 
